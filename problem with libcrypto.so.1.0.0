@@ -1,0 +1,11 @@
+
+-> where I find the solution 
+    - https://github.com/nodkz/mongodb-memory-server/issues/480
+    - https://stackoverflow.com/questions/73251468/e-package-libssl1-1-has-no-installation-candidate/73251469#73251469
+
+problem is, When I using mint/ubuntu don't has script with libssl1-1 and is necessary to run mongoServer to tests
+
+sudo -i
+wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+sudo dpkg -i libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+
